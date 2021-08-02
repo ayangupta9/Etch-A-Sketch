@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/result.css">
+    <title>Winner!</title>
+</head>
+
+<body>
+    <div class="headerWrapper">
+        <h1 id="header">ETCH-A-SKETCH</h1>
+    </div>
+
+    <br>
+    <br>
+    <div class="topWrapper">
+        <h1>AND THE WINNER IS</h1>
+        <div id="winnerWrapper">
+            <h1 class="display-1">
+                <%= winner%>
+            </h1>
+        </div>
+        <div id="scoreWrapper">
+            <h3 class="display-4">
+                <%= score%>
+            </h3>
+        </div>
+        <br>
+        <div id="buttonWrapper">
+            <a class="btn btn-outline-warning" href="/">PLAY AGAIN</a>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="/result.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: rgb(255, 230, 0);
+  min-height: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topWrapper {
+  color: rgb(255, 230, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 2em;
+  background-color: blueviolet;
+}
+
+#header {
+  color: blueviolet;
+  font-size: 70px;
+  padding: 1em;
+  margin: 0;
+  font-weight: 900;
+}

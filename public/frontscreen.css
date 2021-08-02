@@ -1,0 +1,123 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  min-height: 100%;
+  background-color: rgb(255, 230, 0);
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  gap: 30px;
+  border-radius: 25px;
+  flex-direction: column;
+  display: flex;
+}
+
+.header {
+  flex: 1;
+  border-radius: 20px;
+  padding: 2em;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header > h1 {
+  font-size: 50px;
+  color: rgb(255, 230, 0);
+  font-weight: 900 !important;
+}
+/* html::selection {
+   font-size: 75px; 
+  font-weight: 900 !important;
+} */
+
+.description > h4 {
+  color: white;
+}
+
+.joiningWrapper {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.joiningWrapper > * {
+  padding: 2em;
+  border-radius: 20px;
+  flex: 1;
+}
+
+.codeInputWrapper {
+  /* margin: 0.5em; */
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newGameWrapper {
+  /* margin: 0.5em; */
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  outline: none;
+  padding: 0.5em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.codeInputWrapper > input:active:focus {
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoWrapper {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 20px;
+  left: 20px;
+  transition: 300ms ease-in;
+}
+
+.infoWrapper:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px blueviolet;
+}
+
+#githubicon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
